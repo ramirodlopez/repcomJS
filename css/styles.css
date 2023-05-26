@@ -122,3 +122,23 @@ header {
   height: 40px;
   grid-column: x2;
 }
+
+@media screen and (max-width: 991.98px) {
+  #gps {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
+}
+
+}
+
+
+
+@media screen and (max-width: 768px) {
+  #gps {
+    display: grid;
+    grid-template-columns: 1fr;
+
+}
+
+}
